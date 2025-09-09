@@ -2,11 +2,13 @@ import { Container } from "./styles";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
+import springboot from "../../assets/icons8-spring-boot.svg";
 import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import typescriptIcon from "../../assets/typescript-icon.svg";
+import java from "../../assets/java.svg";
+import mysql from "../../assets/mysql-icon.svg";
+import postgresql from "../../assets/postgresql.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -36,46 +38,55 @@ export function About() {
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
               <img src={htmlIcon} alt="Html" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
               <img src={cssIcon} alt="Css" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
-          </div>          
+          </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+              <img src={boostrapIcon} alt="Bootstrap" />
+            </ScrollAnimation>
+          </div>     
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+              <img src={java} alt="Java" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={nodeIcon} alt="Node" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+              <img src={springboot} alt="Spring Boot" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+              <img src={mysql} alt="MySQL" />
             </ScrollAnimation>
           </div>
-          
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+              <img src={postgresql} alt="PostgreSQL" />
+            </ScrollAnimation>
+          </div>
         </div>
       </div>
     </Container>

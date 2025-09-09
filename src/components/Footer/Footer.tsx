@@ -3,7 +3,7 @@ import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
-import telegram from '../../assets/telegram.svg'
+import leetcode from '../../assets/leetcode.svg'
 import instagramIcon from '../../assets/instagram.svg'
 // import discordIcon from '../../assets/discord.png'
 
@@ -41,11 +41,11 @@ export function Footer() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://web.telegram.org/k/"
+          href="https://leetcode.com/u/Aashay_Krv/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={telegram} alt="telegram" />
+          <img src={leetcode} alt="Leetcode" />
         </a>
         <a
           href="https://www.instagram.com/aashhay_/"
