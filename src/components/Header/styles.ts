@@ -97,7 +97,7 @@ export const Container = styled.header`
     text-indent: -9999px;
     width: 55px;
     height: 30px;
-    background: var(--green);
+    background: grey;
     display: block;
     justify-content: center;
     align-items: center;
@@ -130,7 +130,7 @@ export const Container = styled.header`
   }
 
   input:checked + label {
-    background: var(--pink);
+    background: var(--green);
   }
 
   input:checked + label:after {

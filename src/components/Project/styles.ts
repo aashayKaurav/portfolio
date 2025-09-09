@@ -9,7 +9,6 @@ export const Container = styled.section`
     font-size: 4rem;
     margin-bottom: 4rem;
     color: var(--green);
-
   }
   .projects{
     display: grid;

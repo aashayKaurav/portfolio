@@ -13,25 +13,25 @@ export function About() {
   return (
     <Container id="about">
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
+        <ScrollAnimation animateIn="fadeInDown">
           <h2>About me</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
+        <ScrollAnimation animateIn="fadeInDown" delay={0.1 * 1000}>
           <p>
             Hi there! I'm Aashay, a full-stack developer with a passion for creating custom online experiences for my clients. With a skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        <ScrollAnimation animateIn="fadeInDown" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
             After graduating with a degree in Computer Science Engineering, I decided to follow my passion for higher studies. I successfully cracked the GATE 2022 exam with a 97 percentile, which led to my selection for the M.E. in Computer Science course at BITS Pilani (2022-2024).
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+        <ScrollAnimation animateIn="fadeInDown" delay={0.3 * 1000}>
           <p>
             Whether you need a brand-new website or want to refresh your existing online presence, I’m here to help. Let’s collaborate to transform your vision into a stunning and effective web experience.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+        <ScrollAnimation animateIn="fadeInDown" delay={0.4 * 1000}>
           <h3>My main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">

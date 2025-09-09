@@ -6,10 +6,10 @@ import { useEffect, useState } from 'react'
 import validator from 'validator'
 
 export function Form() {
-  const [state, handleSubmit] = useForm('xknddjzv')
-  const [validEmail, setValidEmail] = useState(false)
-  const [isHuman, setIsHuman] = useState(false)
-  const [message, setMessage] = useState('')
+  const [state, handleSubmit] = useForm('xknddjzv');
+  const [validEmail, setValidEmail] = useState(false);
+  // const [isHuman, setIsHuman] = useState(false)
+  const [message, setMessage] = useState('');
   function verifyEmail(email: string) {
     if (validator.isEmail(email)) {
       setValidEmail(true)
@@ -27,7 +27,8 @@ export function Form() {
         toastId: 'succeeded',
       })
     }
-  })
+  }, [state.succeeded])
+
   if (state.succeeded) {
     return (
       <ContainerSucces>
@@ -43,6 +44,7 @@ export function Form() {
       </ContainerSucces>
     )
   }
+
   return (
     <Container>
       <h2>Get in touch using the form</h2>
