@@ -18,16 +18,16 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp">
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
           <h1>Aashay Kaurav</h1>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}>
           <h3>Full Stack Developer</h3>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">1 Year of Experience</p>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}>
+          <p className="small-resume">2 Year's of Experience</p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
           <div className="buttons">
             <a href={CV} download="Aashay_Resume.pdf" className="download-button">Download CV</a>
             <BrowserRouter>
@@ -35,7 +35,7 @@ export function Hero() {
             </BrowserRouter>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.9 * 1000}>
       <div className="social-media">
         <a
           href="https://www.linkedin.com/in/aashaykaurav/"
@@ -68,7 +68,7 @@ export function Hero() {
         </ScrollAnimation>
       </div>
       <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.5 * 1000}>
           <img src={Illustration} alt="Ilustração" />
         </ScrollAnimation>
       </div>
