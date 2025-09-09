@@ -56,16 +56,16 @@ aashay-portfolio/
 Make sure you have **Node.js** and **npm** installed.
 
 ### Installation
-# Clone the repo
+#### Clone the repo
 git clone https://github.com/aashayKaurav/portfolio.git
 
-# Go into project folder
+#### Go into project folder
 cd aashay-portfolio
 
-# Install dependencies
+#### Install dependencies
 npm install
 
-# Run locally
+#### Run locally
 npm start
 
 
