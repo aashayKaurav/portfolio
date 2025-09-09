@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This project showcases my skills, education, and professional experience in web development and software engineering.
 
 ## 🌐 Live Demo
-[]
+[https://aashay-portfolio.netlify.app/]
 
 ## 🛠 Tech Stack
 This portfolio is built with modern web technologies:
