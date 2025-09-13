@@ -18,9 +18,7 @@ export function Project() {
               <div className="project-links">
                 <a href="https://github.com/aashayKaurav/BLOG-Website" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                <a href="https://vote.vinayaksingh.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a> </div>
+              </div>
             </header>
             <div className="body">
               <h3>BLOG Web Application</h3>
@@ -45,8 +43,6 @@ export function Project() {
               <div className="project-links">
                 <a href="https://github.com/aashayKaurav/Text-Summarizer-NLP" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" /></a>
               </div>
             </header>
             <div className="body">
@@ -75,9 +71,6 @@ export function Project() {
               <div className="project-links">
                 <a href="https://github.com/aashayKaurav/Tetris-Game" target="\_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
-                </a>
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
